@@ -1,0 +1,70 @@
+:root {
+  /* primary colors*/
+
+  --grey-clr: hsl(0, 0%, 29%);
+  --brown-clr: hsl(29, 39%, 46%);
+  --green-clr: hsl(81, 48%, 52%);
+  --white-clr: hsl(0, 0%, 100%);
+
+  --clr-primary-green: hsl(29, 39%, 36%);
+  --clr-secondary-green: hsl(29, 100%, 29%);
+  --clr-accent-green: hsl(29, 100%, 21%);
+  --clr-highlight-green: hsl(29, 39%, 49%);
+
+  /* secondary colors */
+
+  --off-white-clr: hsl(29, 64%, 87%) !important;
+  --orange-clr: hsl(29, 98%, 50%);
+  --aqua-blue-clr: hsl(29, 96%, 37%);
+  --light-pink-clr: hsl(29, 94%, 94%);
+  --grey-certi-clr: hsl(189, 5%, 46%);
+  --brown-dark-clr: hsl(11, 19%, 28%) !important;
+  --light-grey-clr: hsl(0, 0%, 97%);
+
+  /* font-family */
+
+  --font-popping: 'Popping', sans-serif;
+
+  /* bg-clr */
+
+  --service-bg: hsl(75, 29%, 95%);
+
+  /* box-shadow */
+
+  --shadow-result: hsla(36, 77%, 60%, 0.439);
+  --grey-shadow: 0px 2px 15px hsla(0, 0%, 0%, 0.102);
+  --dark-grey-shadow: hsla(0, 0%, 0%, 0.149) 5px 5px 10px;
+
+  /* choose us */
+
+  --icon1-clr: rgb(58 93 128);
+  --icon2-clr: rgb(248 200 69);
+  --icon3-clr: rgb(55 153 87);
+  --icon4-clr: rgb(79 196 202);
+  --icon5-clr: rgb(173 204 107);
+  --icon6-clr: rgb(240 43 43);
+
+  /* font-size */
+
+  --fs13: 0.81rem; /* 13px */
+  --fs16: 1rem; /* 16px */
+  --fs20: 1.25rem; /* 20px */
+  --fs24: 1.5rem; /* 24px */
+  --fs28: 1.75rem; /* 28px */
+  --fs32: 2rem; /* 32px */
+  --fs36: 2.25rem; /* 36px */
+  --fs40: 2.5rem; /* 40px */
+  --fs44: 2.75rem; /* 44px */
+  --fs48: 3rem; /* 48px */
+
+  /* font-weight */
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi: 600;
+  --fw-bold: 700;
+
+  /* opacity */
+
+  --opacity04: 0.4;
+}

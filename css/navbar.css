@@ -1,0 +1,51 @@
+/* navbar */
+
+.navbar {
+  background: linear-gradient(
+    180deg,
+    rgba(254, 254, 254, 1) 25%,
+    rgba(238, 235, 233, 1) 100%
+  );
+  transition: all 0.5s ease;
+  padding: 10px 0px;
+}
+
+.navbar-scrolled {
+  background: linear-gradient(
+    0deg,
+    rgb(254 254 254 / 90%) 25%,
+    rgb(238 235 233 / 90%) 100%
+  );
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-item a {
+  color: var(--clr-accent-green) !important;
+  font-weight: 500;
+  padding: 5px 18px !important;
+}
+
+.nav-item a:hover {
+  color:var(--clr-highlight-green) !important;
+  transition: all 0.5s;
+}
+
+.nav-item .active {
+  background: var(--clr-secondary-green);
+  border-radius: 5px;
+  color: var(--white-clr) !important;
+}
+
+.navbar-nav .nav-link.show {
+  color: hsl(81, 48%, 52%);
+}
+
+.nav-link:focus {
+  color: hsl(81, 48%, 52%);
+}
+
+.dropdown-item.active, .dropdown-item:active {background-color: #fff; color: var(--clr-highlight-green);}
+
+.navbar-toggler-icon {
+background-color: var(--clr-accent-green) !important;
+}

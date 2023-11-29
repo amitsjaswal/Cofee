@@ -1,0 +1,48 @@
+.home__banner {
+  width: 100%;
+  min-height: 60vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.home__banner:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(29, 39%, 46%, 0.65),
+    hsla(9, 20%, 28%, 0.451)
+  );
+  background: -o-linear-gradient(
+    180deg,
+    hsla(29, 39%, 46%, 0.65),
+    hsla(9, 20%, 28%, 0.451)
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(29, 39%, 46%, 0.65),
+    hsla(9, 20%, 28%, 0.451)
+  );
+  background: linear-gradient(
+    0deg,
+    hsla(29.77deg 43.52% 42.35%),
+    hsla(9, 20%, 28%, 0)
+  );
+}
+
+.home__banner img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+}

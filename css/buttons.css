@@ -1,0 +1,62 @@
+.off__white__btn {
+  background-color: var(--white-clr);
+  color: var(--clr-primary-green);
+  font-size: var(--fs-16);
+}
+
+.off__white__btn:active,
+.off__white__btn:hover {
+  background-color: var(--clr-accent-green) !important;
+  color: var(--white-clr) !important;
+  opacity: 0.8;
+}
+
+.brown__btn {
+  border: 2px solid var(--clr-secondary-green);
+  color: var(--clr-secondary-green);
+  font-size: var(--fs13);
+}
+
+.brown__btn:active,
+.brown__btn:hover {
+  opacity: 0.8;
+  background-color: var(--clr-secondary-green) !important;
+  color: var(--white-clr);
+}
+
+.brown__tab {
+  background: transparent
+    linear-gradient(
+      180deg,
+      var(--clr-primary-green),
+      var(--white-clr)
+    )
+    0% 0% no-repeat;
+  color: var(--clr-accent-green);
+  font-size: var(--fs13);
+}
+
+.brown__tab:active,
+.brown__tab:hover {
+  background: var(--clr-secondary-green) !important;
+  color: var(--white-clr);
+}
+
+.tab__active {
+  background: var(--clr-secondary-green) !important;
+  color: var(--white-clr) !important;
+}
+
+.btn__yrs {
+  width: 80px;
+  height: 80px;
+  background: var(--brown-clr);
+}
+.btn__yrs:active,
+.btn__yrs:hover {
+  background: var(--brown-clr) !important;
+  color: var(--white-clr) !important;
+  opacity: 0.7;
+}
+
+.btn__send {background: var(--clr-secondary-green);}
